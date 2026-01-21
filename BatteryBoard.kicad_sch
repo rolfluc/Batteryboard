@@ -2306,16 +2306,6 @@
 		)
 		(uuid "36b718d5-c6f0-450c-acf7-e6ede51c447e")
 	)
-	(label "SDA"
-		(at 57.15 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3de920b3-af3e-4bae-82df-68f121479e8f")
-	)
 	(label "SCL"
 		(at 106.68 87.63 180)
 		(effects
@@ -2396,18 +2386,8 @@
 		)
 		(uuid "7a3f7e78-0a19-4b39-a0cc-d4050c8881cb")
 	)
-	(label "SCL"
-		(at 57.15 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7c4525fd-6f9e-4ddc-a694-e0969302f697")
-	)
 	(label "INT_N"
-		(at 57.15 90.17 0)
+		(at 49.53 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2456,15 +2436,15 @@
 		)
 		(uuid "a3dda267-1a98-4441-a9a4-b99e9e887656")
 	)
-	(label "SW"
-		(at 257.81 60.96 180)
+	(label "SCL"
+		(at 49.53 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "bea0827b-88b5-42a4-9cd8-bdd03ffcf915")
+		(uuid "a5c4ce32-57c4-4da0-9094-bd7c2d4dbb6f")
 	)
 	(label "TS"
 		(at 251.46 68.58 180)
@@ -2516,8 +2496,18 @@
 		)
 		(uuid "cf4159e9-7e41-4639-8a60-0965a31abc73")
 	)
+	(label "SW"
+		(at 264.16 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1fcede5-b9bc-4187-8e29-ea5ea31afcbf")
+	)
 	(label "CE_N"
-		(at 57.15 92.71 0)
+		(at 49.53 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2545,6 +2535,16 @@
 			(justify right bottom)
 		)
 		(uuid "f050b70d-48b6-483f-8059-fb823f71c7ea")
+	)
+	(label "SDA"
+		(at 49.53 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8cf2b08-2733-4e8e-8ccc-b8a9bf044785")
 	)
 	(label "REGN"
 		(at 152.4 72.39 0)
@@ -2974,7 +2974,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 264.16 71.12 0)
+		(at 264.16 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2983,7 +2983,7 @@
 		(fields_autoplaced yes)
 		(uuid "194108ec-a87b-4b9c-8009-0a428dffefe0")
 		(property "Reference" "#PWR017"
-			(at 264.16 77.47 0)
+			(at 264.16 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,15 +2992,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.16 75.2531 0)
+			(at 266.065 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 71.12 0)
+			(at 264.16 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +3010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 71.12 0)
+			(at 264.16 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3018,7 +3019,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 71.12 0)
+			(at 264.16 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:5_Castellated"
 			(at 44.45 87.63 0)
 			(effects
 				(font
@@ -3554,7 +3555,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:5_Castellated"
 			(at 269.24 66.04 0)
 			(effects
 				(font
@@ -4902,7 +4903,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 57.15 82.55 0)
+		(at 49.53 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4911,7 +4912,7 @@
 		(fields_autoplaced yes)
 		(uuid "e954d2b6-877c-46e2-b19b-4a004293c8d1")
 		(property "Reference" "#PWR020"
-			(at 57.15 86.36 0)
+			(at 49.53 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4920,7 +4921,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 57.15 78.4169 0)
+			(at 49.53 78.4169 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4928,7 +4929,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 82.55 0)
+			(at 49.53 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,7 +4938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 82.55 0)
+			(at 49.53 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4946,7 +4947,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 57.15 82.55 0)
+			(at 49.53 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

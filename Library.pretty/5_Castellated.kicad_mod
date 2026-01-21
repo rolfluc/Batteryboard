@@ -85,23 +85,6 @@
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
 		(uuid "8599061a-5a8b-4be6-a005-a5aaea702501")
-		(padstack
-			(mode front_inner_back)
-			(layer "Inner"
-				(shape roundrect)
-				(size 1 0.75)
-				(roundrect_rratio 0.15)
-				(thermal_bridge_angle 45)
-				(zone_connect -1)
-			)
-			(layer "B.Cu"
-				(shape roundrect)
-				(size 1 0.75)
-				(roundrect_rratio 0.15)
-				(thermal_bridge_angle 45)
-				(zone_connect -1)
-			)
-		)
 	)
 	(pad "2" thru_hole roundrect
 		(at 0 1.5)
@@ -112,23 +95,6 @@
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
 		(uuid "2cffcae4-4fc5-4049-8cdc-7e34a167c832")
-		(padstack
-			(mode front_inner_back)
-			(layer "Inner"
-				(shape roundrect)
-				(size 1 0.75)
-				(roundrect_rratio 0.15)
-				(thermal_bridge_angle 45)
-				(zone_connect -1)
-			)
-			(layer "B.Cu"
-				(shape roundrect)
-				(size 1 0.75)
-				(roundrect_rratio 0.15)
-				(thermal_bridge_angle 45)
-				(zone_connect -1)
-			)
-		)
 	)
 	(pad "3" thru_hole roundrect
 		(at 0 3)
@@ -139,23 +105,6 @@
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
 		(uuid "586ecd46-1686-4b42-902d-ddf539b02456")
-		(padstack
-			(mode front_inner_back)
-			(layer "Inner"
-				(shape roundrect)
-				(size 1 0.75)
-				(roundrect_rratio 0.15)
-				(thermal_bridge_angle 45)
-				(zone_connect -1)
-			)
-			(layer "B.Cu"
-				(shape roundrect)
-				(size 1 0.75)
-				(roundrect_rratio 0.15)
-				(thermal_bridge_angle 45)
-				(zone_connect -1)
-			)
-		)
 	)
 	(pad "4" thru_hole roundrect
 		(at 0 4.5)
@@ -166,23 +115,6 @@
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
 		(uuid "84d8bd96-a201-4e32-bca0-45c6c4b1fa34")
-		(padstack
-			(mode front_inner_back)
-			(layer "Inner"
-				(shape roundrect)
-				(size 1 0.75)
-				(roundrect_rratio 0.15)
-				(thermal_bridge_angle 45)
-				(zone_connect -1)
-			)
-			(layer "B.Cu"
-				(shape roundrect)
-				(size 1 0.75)
-				(roundrect_rratio 0.15)
-				(thermal_bridge_angle 45)
-				(zone_connect -1)
-			)
-		)
 	)
 	(pad "5" thru_hole roundrect
 		(at 0 6)
@@ -193,23 +125,6 @@
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
 		(uuid "7d31ae4d-873a-4e6f-85f2-8b7acea89881")
-		(padstack
-			(mode front_inner_back)
-			(layer "Inner"
-				(shape roundrect)
-				(size 1 0.75)
-				(roundrect_rratio 0.15)
-				(thermal_bridge_angle 45)
-				(zone_connect -1)
-			)
-			(layer "B.Cu"
-				(shape roundrect)
-				(size 1 0.75)
-				(roundrect_rratio 0.15)
-				(thermal_bridge_angle 45)
-				(zone_connect -1)
-			)
-		)
 	)
 	(embedded_fonts no)
 )

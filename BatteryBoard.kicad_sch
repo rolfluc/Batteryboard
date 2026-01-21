@@ -1743,6 +1743,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 71.12) (xy 264.16 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1da48fee-1b70-4092-ae28-576f03a89db0")
+	)
+	(wire
+		(pts
 			(xy 154.94 62.23) (xy 152.4 62.23)
 		)
 		(stroke
@@ -1953,16 +1963,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 68.58) (xy 264.16 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d410ee92-77de-4a6e-83b1-1c7ca2067ce6")
-	)
-	(wire
-		(pts
 			(xy 99.06 64.77) (xy 106.68 64.77)
 		)
 		(stroke
@@ -2051,6 +2051,16 @@
 		)
 		(uuid "185bf422-d241-4f45-9244-8bec24917b90")
 	)
+	(label "TS"
+		(at 243.84 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b9886a3-2ca6-47c9-8363-665435a04780")
+	)
 	(label "VSYS"
 		(at 167.64 60.96 0)
 		(effects
@@ -2091,16 +2101,6 @@
 		)
 		(uuid "2f12f933-eb85-48b9-ab63-05ffefde2b5f")
 	)
-	(label "SW"
-		(at 185.42 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2fd13cde-dfdf-4fe2-af53-88c9bc15eb19")
-	)
 	(label "VBAT"
 		(at 203.2 80.01 90)
 		(effects
@@ -2110,6 +2110,16 @@
 			(justify left bottom)
 		)
 		(uuid "36b718d5-c6f0-450c-acf7-e6ede51c447e")
+	)
+	(label "BUTTON"
+		(at 152.4 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43c83e9e-3983-404c-91a2-70b04af1e09a")
 	)
 	(label "SCL"
 		(at 106.68 87.63 180)
@@ -2131,6 +2141,16 @@
 		)
 		(uuid "4446b65c-6894-49fb-80ff-04dff386ac5e")
 	)
+	(label "BUTTON"
+		(at 264.16 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b428ed3-5b6a-42bb-b411-b5ead82e366a")
+	)
 	(label "REGN"
 		(at 173.99 120.65 90)
 		(effects
@@ -2150,6 +2170,16 @@
 			(justify left bottom)
 		)
 		(uuid "54579a4f-aa8f-4776-bb04-e69d284713e8")
+	)
+	(label "SW"
+		(at 154.94 59.69 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "613c0e4f-fa66-4cbe-b0fb-ec1b06a84210")
 	)
 	(label "PMID"
 		(at 72.39 55.88 90)
@@ -2201,15 +2231,15 @@
 		)
 		(uuid "924614ff-ce16-405a-a23f-ebdeb604edca")
 	)
-	(label "SW"
-		(at 152.4 97.79 0)
+	(label "TS_BAT"
+		(at 255.27 71.12 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9a5a4e95-2a6a-4640-8a04-791ed038d6ec")
+		(uuid "95f3cf80-d04a-4a44-916f-77a72e704f22")
 	)
 	(label "PMID"
 		(at 62.23 55.88 90)
@@ -2230,16 +2260,6 @@
 			(justify left bottom)
 		)
 		(uuid "a5c4ce32-57c4-4da0-9094-bd7c2d4dbb6f")
-	)
-	(label "TS"
-		(at 251.46 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c1d109c4-6dcc-4ad5-bb3d-66b1873eedcc")
 	)
 	(label "VBAT"
 		(at 152.4 92.71 0)
@@ -2271,16 +2291,6 @@
 		)
 		(uuid "cf4159e9-7e41-4639-8a60-0965a31abc73")
 	)
-	(label "SW"
-		(at 264.16 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d1fcede5-b9bc-4187-8e29-ea5ea31afcbf")
-	)
 	(label "CE_N"
 		(at 49.53 92.71 0)
 		(effects
@@ -2300,6 +2310,16 @@
 			(justify left bottom)
 		)
 		(uuid "dd6d9a0f-26dc-4122-9911-071a7b39d94d")
+	)
+	(label "BUTTON"
+		(at 185.42 97.79 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef467652-b6a3-456e-ac8d-0f768ebc4e3a")
 	)
 	(label "SDA"
 		(at 106.68 92.71 180)
@@ -4323,7 +4343,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 255.27 68.58 90)
+		(at 247.65 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4331,7 +4351,7 @@
 		(dnp yes)
 		(uuid "e043ff76-040e-4868-9ff2-56bf3ae41759")
 		(property "Reference" "R5"
-			(at 255.27 66.548 90)
+			(at 247.65 69.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,7 +4359,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 255.27 68.58 90)
+			(at 247.65 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,7 +4367,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 255.27 70.358 90)
+			(at 247.65 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4356,7 +4376,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 68.58 0)
+			(at 247.65 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4365,7 +4385,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 255.27 68.58 0)
+			(at 247.65 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

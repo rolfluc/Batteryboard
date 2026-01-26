@@ -1669,16 +1669,6 @@
 		)
 		(uuid "28e4ae33-1769-4e1c-a4e6-7ea9c99dc6e4")
 	)
-	(text "Stat expected by accompanying PCB, \nquerying via I2C"
-		(exclude_from_sim no)
-		(at 165.1 112.014 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "781d3611-54f5-46c8-9bf3-75516a999b77")
-	)
 	(junction
 		(at 90.17 113.03)
 		(diameter 0)
@@ -1823,6 +1813,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 104.14) (xy 90.17 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cdb4fdd-5b55-4154-a391-91dfb29b28b2")
+	)
+	(wire
+		(pts
 			(xy 156.21 87.63) (xy 152.4 87.63)
 		)
 		(stroke
@@ -1833,7 +1833,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 113.03) (xy 90.17 110.49)
+			(xy 90.17 113.03) (xy 90.17 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2406,6 +2406,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KA5NQNC/3887103"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C52923.html?s_z=n_CL05A105KA5NQNC"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" "CL05A105KA5NQNC"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2967969d-303a-435f-9b71-34cf2cd4a14c")
 		)
@@ -2608,6 +2635,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MO5NUNC/5961320?s=N4IgTCBcDaIMIBkAMBWAggFgOwoLIHkUA5AVSLhAF0BfIA"
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C318563.html?s_z=n_CL05A475MO5NUNC"
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" "CL05A475MO5NUNC"
+			(at 196.85 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "29e9ade0-4166-4398-8da8-97237c454ef2")
 		)
@@ -2668,6 +2722,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 198.12 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418"
+			(at 198.12 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C60489.html?s_z=n_RC0402JR-0710KL"
+			(at 198.12 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" "RC0402JR-0710KL"
+			(at 198.12 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2840,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 90.17 106.68 0)
+		(at 90.17 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2768,7 +2849,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b02f6a3-2c00-45b9-b4b5-3f12985f3a89")
 		(property "Reference" "R1"
-			(at 91.948 105.4678 0)
+			(at 91.948 106.7378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2858,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 91.948 107.8921 0)
+			(at 91.948 109.1621 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +2867,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 88.392 106.68 90)
+			(at 88.392 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +2876,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 106.68 0)
+			(at 90.17 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,7 +2885,34 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 90.17 106.68 0)
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526"
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C60491.html?s_z=n_RC0402FR-07100KL"
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" "RC0402FR-07100KL"
+			(at 90.17 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,6 +2990,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/c-k/NANOT-240-AS/13182173?s=N4IgTCBcDaIHIEE4HkAqACMAWADOhAyiALoC%2BQA"
+			(at 185.42 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C2760982.html?s_z=n_NANOT"
+			(at 185.42 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" "NANOT 240 AS"
+			(at 185.42 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99e803bf-639b-430c-aa36-add9e15323b2")
 		)
@@ -2941,6 +3076,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 44.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 44.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" ""
+			(at 44.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" ""
 			(at 44.45 87.63 0)
 			(effects
 				(font
@@ -3160,6 +3322,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" ""
+			(at 158.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" ""
+			(at 158.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" ""
+			(at 158.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84855d0b-0c7c-4999-a859-f19cb7b659ad")
 		)
@@ -3230,6 +3419,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MO5NUNC/5961320?s=N4IgTCBcDaIMIBkAMBWAggFgOwoLIHkUA5AVSLhAF0BfIA"
+			(at 72.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C318563.html?s_z=n_CL05A475MO5NUNC"
+			(at 72.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" "CL05A475MO5NUNC"
+			(at 72.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "21842674-8688-4ab0-bed4-f5e713dd2e4a")
 		)
@@ -3292,6 +3508,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 269.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 269.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" ""
+			(at 269.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" ""
 			(at 269.24 66.04 0)
 			(effects
 				(font
@@ -3511,6 +3754,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MO5NUNC/5961320?s=N4IgTCBcDaIMIBkAMBWAggFgOwoLIHkUA5AVSLhAF0BfIA"
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C318563.html?s_z=n_CL05A475MO5NUNC"
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" "CL05A475MO5NUNC"
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ca966d3-6689-41a2-ac97-0841243ebb5a")
 		)
@@ -3573,6 +3843,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 90.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 90.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" ""
+			(at 90.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" ""
 			(at 90.17 118.11 0)
 			(effects
 				(font
@@ -3981,6 +4278,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MO5NUNC/5961320?s=N4IgTCBcDaIMIBkAMBWAggFgOwoLIHkUA5AVSLhAF0BfIA"
+			(at 186.69 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C318563.html?s_z=n_CL05A475MO5NUNC"
+			(at 186.69 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" "CL05A475MO5NUNC"
+			(at 186.69 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "58f7e6be-31cf-4bee-9020-a55b9c5acdef")
 		)
@@ -4051,6 +4375,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MO5NUNC/5961320?s=N4IgTCBcDaIMIBkAMBWAggFgOwoLIHkUA5AVSLhAF0BfIA"
+			(at 203.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C318563.html?s_z=n_CL05A475MO5NUNC"
+			(at 203.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" "CL05A475MO5NUNC"
+			(at 203.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "262e45bd-4c78-4a2e-902c-df9bf791f9bd")
 		)
@@ -4113,6 +4464,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" ""
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" ""
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -4326,6 +4704,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MO5NUNC/5961320?s=N4IgTCBcDaIMIBkAMBWAggFgOwoLIHkUA5AVSLhAF0BfIA"
+			(at 193.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C318563.html?s_z=n_CL05A475MO5NUNC"
+			(at 193.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" "CL05A475MO5NUNC"
+			(at 193.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "72fd0dc0-8198-427a-b764-60a5b35b148d")
 		)
@@ -4386,6 +4791,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 247.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 247.65 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" ""
+			(at 247.65 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" ""
+			(at 247.65 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,6 +5223,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Link" ""
+			(at 163.83 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" ""
+			(at 163.83 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" ""
+			(at 163.83 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6fa24541-f8b4-46cd-9a75-1e8d1b5e4f45")
 		)
@@ -4853,6 +5312,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 173.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MO5NUNC/5961320?s=N4IgTCBcDaIMIBkAMBWAggFgOwoLIHkUA5AVSLhAF0BfIA"
+			(at 173.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C318563.html?s_z=n_CL05A475MO5NUNC"
+			(at 173.99 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" "CL05A475MO5NUNC"
 			(at 173.99 124.46 0)
 			(effects
 				(font

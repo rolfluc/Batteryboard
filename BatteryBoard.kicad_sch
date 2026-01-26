@@ -3037,7 +3037,7 @@
 		(at 44.45 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "20fcce7b-5db5-4f4b-9bc7-aaafc82c08e0")
@@ -3322,7 +3322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05B473KB5VPNC/11487772"
 			(at 158.75 64.77 0)
 			(effects
 				(font
@@ -3331,7 +3331,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" ""
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307339.html?s_z=n_CL05B473KB5VPNC"
 			(at 158.75 64.77 0)
 			(effects
 				(font
@@ -3340,7 +3340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfger Part#" ""
+		(property "Mfger Part#" "CL05B473KB5VPNC"
 			(at 158.75 64.77 0)
 			(effects
 				(font
@@ -3467,7 +3467,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "501af975-3e67-4613-877f-275dc957a370")
@@ -3801,7 +3801,7 @@
 		(at 90.17 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -3851,7 +3851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526"
 			(at 90.17 118.11 0)
 			(effects
 				(font
@@ -3860,7 +3860,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" ""
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C60491.html?s_z=n_RC0402FR-07100KL"
 			(at 90.17 118.11 0)
 			(effects
 				(font
@@ -3869,7 +3869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfger Part#" ""
+		(property "Mfger Part#" "RC0402FR-07100KL"
 			(at 90.17 118.11 0)
 			(effects
 				(font
@@ -4472,7 +4472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/texas-instruments/BQ25619ERTWR/13545367?s=N4IgTCBcDaIEIEUwFYBsBGAnAUQEoBUB1XEAXQF8g"
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -4481,7 +4481,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" ""
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C2873446.html?s_z=n_BQ25619ERTWR"
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -4490,7 +4490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfger Part#" ""
+		(property "Mfger Part#" "BQ25619ERTWR"
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -4751,7 +4751,7 @@
 		(at 247.65 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "e043ff76-040e-4868-9ff2-56bf3ae41759")
@@ -5214,7 +5214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "74479787210A"
+		(property "Description" "LQM2HPN1R0MGHL"
 			(at 163.83 60.96 0)
 			(effects
 				(font
@@ -5223,7 +5223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" ""
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/murata-electronics/LQM2HPN1R0MGHL/4905781?s=N4IgTCBcDaIDIEUCyYASAFAcgRgEoAYkBxVOEAXQF8g#product-details-substitutes"
 			(at 163.83 60.96 90)
 			(effects
 				(font
@@ -5232,7 +5232,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" ""
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C162587.html"
 			(at 163.83 60.96 90)
 			(effects
 				(font
@@ -5241,7 +5241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfger Part#" ""
+		(property "Mfger Part#" "LQM2HPN1R0MGHL"
 			(at 163.83 60.96 90)
 			(effects
 				(font

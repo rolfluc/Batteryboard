@@ -2051,6 +2051,16 @@
 		)
 		(uuid "185bf422-d241-4f45-9244-8bec24917b90")
 	)
+	(label "REGN"
+		(at 171.45 97.79 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18b61bd3-48a2-40b8-a9dd-ed2a32834758")
+	)
 	(label "TS"
 		(at 243.84 71.12 180)
 		(effects
@@ -2170,6 +2180,16 @@
 			(justify left bottom)
 		)
 		(uuid "54579a4f-aa8f-4776-bb04-e69d284713e8")
+	)
+	(label "TS"
+		(at 171.45 105.41 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59bb5cdf-8499-43be-8779-b08697c74293")
 	)
 	(label "SW"
 		(at 154.94 59.69 90)
@@ -2587,7 +2607,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0457f5df-ebd2-4a06-9dd0-bc8435f5266a")
 		(property "Reference" "C5"
@@ -2599,7 +2619,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 199.771 69.7921 0)
 			(effects
 				(font
@@ -2635,7 +2655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MO5NUNC/5961320?s=N4IgTCBcDaIMIBkAMBWAggFgOwoLIHkUA5AVSLhAF0BfIA"
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A106MP8NUB8/5961314"
 			(at 196.85 68.58 0)
 			(effects
 				(font
@@ -2644,7 +2664,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C318563.html?s_z=n_CL05A475MO5NUNC"
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307415.html?s_z=n_CL05A106MP8NUB8"
 			(at 196.85 68.58 0)
 			(effects
 				(font
@@ -2653,7 +2673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfger Part#" "CL05A475MO5NUNC"
+		(property "Mfger Part#" "CL05A106MP8NUB8"
 			(at 196.85 68.58 0)
 			(effects
 				(font
@@ -3371,7 +3391,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4d57acfb-3998-4679-94ba-b5664f2a3007")
 		(property "Reference" "C3"
@@ -3383,7 +3403,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 75.311 60.9021 0)
 			(effects
 				(font
@@ -3419,7 +3439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MO5NUNC/5961320?s=N4IgTCBcDaIMIBkAMBWAggFgOwoLIHkUA5AVSLhAF0BfIA"
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A106MP8NUB8/5961314"
 			(at 72.39 59.69 0)
 			(effects
 				(font
@@ -3428,7 +3448,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C318563.html?s_z=n_CL05A475MO5NUNC"
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307415.html?s_z=n_CL05A106MP8NUB8"
 			(at 72.39 59.69 0)
 			(effects
 				(font
@@ -3437,7 +3457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfger Part#" "CL05A475MO5NUNC"
+		(property "Mfger Part#" "CL05A106MP8NUB8"
 			(at 72.39 59.69 0)
 			(effects
 				(font
@@ -3718,7 +3738,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 65.151 60.9021 0)
 			(effects
 				(font
@@ -3754,7 +3774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MO5NUNC/5961320?s=N4IgTCBcDaIMIBkAMBWAggFgOwoLIHkUA5AVSLhAF0BfIA"
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A106MP8NUB8/5961314"
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -3763,7 +3783,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C318563.html?s_z=n_CL05A475MO5NUNC"
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307415.html?s_z=n_CL05A106MP8NUB8"
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -3772,7 +3792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfger Part#" "CL05A475MO5NUNC"
+		(property "Mfger Part#" "CL05A106MP8NUB8"
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -4242,7 +4262,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 189.611 69.7921 0)
 			(effects
 				(font
@@ -4278,7 +4298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MO5NUNC/5961320?s=N4IgTCBcDaIMIBkAMBWAggFgOwoLIHkUA5AVSLhAF0BfIA"
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A106MP8NUB8/5961314"
 			(at 186.69 68.58 0)
 			(effects
 				(font
@@ -4287,7 +4307,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C318563.html?s_z=n_CL05A475MO5NUNC"
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307415.html?s_z=n_CL05A106MP8NUB8"
 			(at 186.69 68.58 0)
 			(effects
 				(font
@@ -4296,7 +4316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfger Part#" "CL05A475MO5NUNC"
+		(property "Mfger Part#" "CL05A106MP8NUB8"
 			(at 186.69 68.58 0)
 			(effects
 				(font
@@ -4327,7 +4347,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "adb15a72-d5e6-4ca2-a71e-87f1770728fe")
 		(property "Reference" "C9"
@@ -4339,7 +4359,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 206.121 85.0321 0)
 			(effects
 				(font
@@ -4375,7 +4395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MO5NUNC/5961320?s=N4IgTCBcDaIMIBkAMBWAggFgOwoLIHkUA5AVSLhAF0BfIA"
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A106MP8NUB8/5961314"
 			(at 203.2 83.82 0)
 			(effects
 				(font
@@ -4384,7 +4404,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C318563.html?s_z=n_CL05A475MO5NUNC"
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307415.html?s_z=n_CL05A106MP8NUB8"
 			(at 203.2 83.82 0)
 			(effects
 				(font
@@ -4393,7 +4413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfger Part#" "CL05A475MO5NUNC"
+		(property "Mfger Part#" "CL05A106MP8NUB8"
 			(at 203.2 83.82 0)
 			(effects
 				(font
@@ -4668,7 +4688,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 195.961 85.0321 0)
 			(effects
 				(font
@@ -4704,7 +4724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MO5NUNC/5961320?s=N4IgTCBcDaIMIBkAMBWAggFgOwoLIHkUA5AVSLhAF0BfIA"
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A106MP8NUB8/5961314"
 			(at 193.04 83.82 0)
 			(effects
 				(font
@@ -4713,7 +4733,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C318563.html?s_z=n_CL05A475MO5NUNC"
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307415.html?s_z=n_CL05A106MP8NUB8"
 			(at 193.04 83.82 0)
 			(effects
 				(font
@@ -4722,7 +4742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfger Part#" "CL05A475MO5NUNC"
+		(property "Mfger Part#" "CL05A106MP8NUB8"
 			(at 193.04 83.82 0)
 			(effects
 				(font
@@ -5171,6 +5191,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 171.45 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fce2ca2d-6a6c-4466-ac6a-fa8e389fc77f")
+		(property "Reference" "R3"
+			(at 169.418 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 171.45 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 173.228 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418"
+			(at 171.45 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C60489.html?s_z=n_RC0402JR-0710KL"
+			(at 171.45 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfger Part#" "RC0402JR-0710KL"
+			(at 171.45 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cbcb91dc-0abf-478d-89df-fa070c6609bf")
+		)
+		(pin "1"
+			(uuid "fbc37389-4058-49d7-835f-f4f7a70e9a61")
+		)
+		(instances
+			(project "BatteryBoard"
+				(path "/168724d5-94e3-4977-93b0-afa14ed6e82b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 163.83 60.96 90)
 		(unit 1)
@@ -5284,7 +5398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 176.911 125.6721 0)
 			(effects
 				(font
@@ -5320,7 +5434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A475MO5NUNC/5961320?s=N4IgTCBcDaIMIBkAMBWAggFgOwoLIHkUA5AVSLhAF0BfIA"
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A106MP8NUB8/5961314"
 			(at 173.99 124.46 0)
 			(effects
 				(font
@@ -5329,7 +5443,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C318563.html?s_z=n_CL05A475MO5NUNC"
+		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307415.html?s_z=n_CL05A106MP8NUB8"
 			(at 173.99 124.46 0)
 			(effects
 				(font
@@ -5338,7 +5452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfger Part#" "CL05A475MO5NUNC"
+		(property "Mfger Part#" "CL05A106MP8NUB8"
 			(at 173.99 124.46 0)
 			(effects
 				(font

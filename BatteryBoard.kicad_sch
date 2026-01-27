@@ -2289,25 +2289,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C52923.html"
-			(at 86.36 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" "CL05A105KA5NQNC"
-			(at 86.36 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C52923"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 86.36 59.69 0)
 			(effects
 				(font
@@ -2527,25 +2509,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307415.html"
-			(at 196.85 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" "CL05A106MP8NUB8"
-			(at 196.85 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C307415"
+		(property "MPN" "CL05A106MP8NUB8"
 			(at 196.85 68.58 0)
 			(effects
 				(font
@@ -2630,25 +2594,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C60489.html"
-			(at 198.12 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" "RC0402JR-0710KL"
-			(at 198.12 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C60489"
+		(property "MPN" "RC0402JR-0710KL"
 			(at 198.12 129.54 90)
 			(effects
 				(font
@@ -2803,25 +2749,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C60491.html"
-			(at 90.17 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" "RC0402FR-07100KL"
-			(at 90.17 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C60491"
+		(property "MPN" "RC0402FR-07100KL"
 			(at 90.17 107.95 0)
 			(effects
 				(font
@@ -2898,33 +2826,6 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 44.45 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Link" ""
-			(at 44.45 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" ""
-			(at 44.45 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 44.45 87.63 0)
 			(effects
 				(font
@@ -3153,25 +3054,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307339.html"
-			(at 158.75 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" "CL05B473KB5VPNC"
-			(at 158.75 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C307339"
+		(property "MPN" "CL05B473KB5VPNC"
 			(at 158.75 64.77 0)
 			(effects
 				(font
@@ -3259,25 +3142,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307415.html"
-			(at 72.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" "CL05A106MP8NUB8"
-			(at 72.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C307415"
+		(property "MPN" "CL05A106MP8NUB8"
 			(at 72.39 59.69 0)
 			(effects
 				(font
@@ -3357,33 +3222,6 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 269.24 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Link" ""
-			(at 269.24 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" ""
-			(at 269.24 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 269.24 66.04 0)
 			(effects
 				(font
@@ -3612,25 +3450,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307415.html"
-			(at 62.23 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" "CL05A106MP8NUB8"
-			(at 62.23 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C307415"
+		(property "MPN" "CL05A106MP8NUB8"
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -3718,25 +3538,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C60491.html"
-			(at 90.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" "RC0402FR-07100KL"
-			(at 90.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C60491"
+		(property "MPN" "RC0402FR-07100KL"
 			(at 90.17 118.11 0)
 			(effects
 				(font
@@ -4088,25 +3890,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307415.html"
-			(at 186.69 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" "CL05A106MP8NUB8"
-			(at 186.69 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C307415"
+		(property "MPN" "CL05A106MP8NUB8"
 			(at 186.69 68.58 0)
 			(effects
 				(font
@@ -4194,25 +3978,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307415.html"
-			(at 193.04 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" "CL05A106MP8NUB8"
-			(at 193.04 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C307415"
+		(property "MPN" "CL05A106MP8NUB8"
 			(at 193.04 86.36 0)
 			(effects
 				(font
@@ -4300,25 +4066,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C2873446.html"
-			(at 129.54 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" "BQ25619ERTWR"
-			(at 129.54 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C2873446"
+		(property "MPN" "BQ25619ERTWR"
 			(at 129.54 92.71 0)
 			(effects
 				(font
@@ -4541,25 +4289,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307415.html"
-			(at 204.47 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" "CL05A106MP8NUB8"
-			(at 204.47 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C307415"
+		(property "MPN" "CL05A106MP8NUB8"
 			(at 204.47 86.36 0)
 			(effects
 				(font
@@ -4636,33 +4366,6 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 247.65 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Link" ""
-			(at 247.65 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" ""
-			(at 247.65 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 247.65 71.12 90)
 			(effects
 				(font
@@ -5077,25 +4780,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C60489.html"
-			(at 171.45 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" "RC0402JR-0710KL"
-			(at 171.45 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C60489"
+		(property "MPN" "RC0402JR-0710KL"
 			(at 171.45 101.6 90)
 			(effects
 				(font
@@ -5137,7 +4822,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uH"
 			(at 163.83 58.7345 90)
 			(effects
 				(font
@@ -5181,25 +4866,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C162587.html"
-			(at 163.83 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" "LQM2HPN1R0MGHL"
-			(at 163.83 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C162587"
+		(property "MPN" "LQM2HPN1R0MGHL"
 			(at 163.83 60.96 90)
 			(effects
 				(font
@@ -5287,25 +4954,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307415.html"
-			(at 173.99 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfger Part#" "CL05A106MP8NUB8"
-			(at 173.99 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C307415"
+		(property "MPN" "CL05A106MP8NUB8"
 			(at 173.99 124.46 0)
 			(effects
 				(font

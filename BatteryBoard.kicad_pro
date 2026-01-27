@@ -502,7 +502,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Gerber/",
-      "pos_files": "",
+      "pos_files": "Gerber/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -604,6 +604,12 @@
           "label": "LCSC Link",
           "name": "LCSC Link",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part Number",
+          "name": "LCSC Part Number",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -611,7 +617,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "LCSC Link"
     },
     "connection_grid_size": 50.0,
     "drawing": {

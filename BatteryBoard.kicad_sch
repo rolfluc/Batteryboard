@@ -1976,7 +1976,7 @@
 		(uuid "2f12f933-eb85-48b9-ab63-05ffefde2b5f")
 	)
 	(label "VBAT"
-		(at 203.2 80.01 90)
+		(at 193.04 82.55 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2186,7 +2186,7 @@
 		(uuid "dcd3b23d-d74c-42a9-a560-2edc4bea0e25")
 	)
 	(label "VBAT"
-		(at 193.04 80.01 90)
+		(at 204.47 82.55 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3870,7 +3870,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 87.63 0)
+		(at 204.47 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3879,7 +3879,7 @@
 		(fields_autoplaced yes)
 		(uuid "a616484c-3e21-464d-93dc-036737a2a055")
 		(property "Reference" "#PWR012"
-			(at 193.04 93.98 0)
+			(at 204.47 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +3888,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 91.7631 0)
+			(at 204.47 94.3031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +3896,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 87.63 0)
+			(at 204.47 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +3905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 87.63 0)
+			(at 204.47 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,7 +3914,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 87.63 0)
+			(at 204.47 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,16 +4033,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 203.2 83.82 0)
+		(at 193.04 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adb15a72-d5e6-4ca2-a71e-87f1770728fe")
 		(property "Reference" "C9"
-			(at 206.121 82.6078 0)
+			(at 195.961 85.1478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,7 +4051,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 206.121 85.0321 0)
+			(at 195.961 87.5721 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4060,7 +4060,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 204.1652 87.63 0)
+			(at 194.0052 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,7 +4069,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 83.82 0)
+			(at 193.04 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4078,7 @@
 			)
 		)
 		(property "Description" "CL05A475MO5NUNC"
-			(at 203.2 83.82 0)
+			(at 193.04 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +4087,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A106MP8NUB8/5961314"
-			(at 203.2 83.82 0)
+			(at 193.04 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +4096,7 @@
 			)
 		)
 		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307415.html?s_z=n_CL05A106MP8NUB8"
-			(at 203.2 83.82 0)
+			(at 193.04 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4105,7 @@
 			)
 		)
 		(property "Mfger Part#" "CL05A106MP8NUB8"
-			(at 203.2 83.82 0)
+			(at 193.04 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,16 +4362,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 193.04 83.82 0)
+		(at 204.47 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ccef30bb-8666-4d30-99de-4ce7fbfdb66b")
 		(property "Reference" "C8"
-			(at 195.961 82.6078 0)
+			(at 207.391 85.1478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4380,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 195.961 85.0321 0)
+			(at 207.391 87.5721 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4389,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 194.0052 87.63 0)
+			(at 205.4352 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,7 +4398,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 83.82 0)
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,7 +4407,7 @@
 			)
 		)
 		(property "Description" "CL05A475MO5NUNC"
-			(at 193.04 83.82 0)
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,7 +4416,7 @@
 			)
 		)
 		(property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A106MP8NUB8/5961314"
-			(at 193.04 83.82 0)
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,7 +4425,7 @@
 			)
 		)
 		(property "LCSC Link" "https://www.lcsc.com/product-detail/C307415.html?s_z=n_CL05A106MP8NUB8"
-			(at 193.04 83.82 0)
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,7 +4434,7 @@
 			)
 		)
 		(property "Mfger Part#" "CL05A106MP8NUB8"
-			(at 193.04 83.82 0)
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4553,7 +4553,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 87.63 0)
+		(at 193.04 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4562,7 +4562,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4db9c0a-9f0a-4ef9-8976-5fea695dcd7c")
 		(property "Reference" "#PWR013"
-			(at 203.2 93.98 0)
+			(at 193.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4571,7 +4571,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 91.7631 0)
+			(at 193.04 94.3031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,7 +4579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 87.63 0)
+			(at 193.04 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +4588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 87.63 0)
+			(at 193.04 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +4597,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 87.63 0)
+			(at 193.04 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
